@@ -1,0 +1,8 @@
+image: gitpod/workspace-flutter
+ports:
+  - port: 9898
+    onOpen: open-preview
+vscode:
+  extensions:
+    - dart-code.dart-code
+    - dart-code.flutter
